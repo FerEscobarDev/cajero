@@ -1,0 +1,99 @@
+
+body{
+    height: 100vh;   
+    background-color: rgba(0, 0, 0, 0.884); 
+}
+
+.content{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inputForm{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-block-end: 15px;
+}
+
+label{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0.2rem;
+    color: white;
+}
+
+input{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+input:focus{
+    outline-color: rgb(241, 174, 30);
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    min-width: 150px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(241, 174, 30);
+    font-size: large;
+}
+
+.logo-banco {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(241, 174, 30);
+  border-radius: 50px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-banco>svg{
+    width: 90%;
+    height: 90%;
+}
+
+.headerForm{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.headerForm > span{
+    font-size: 40px;
+    margin-left: 15px;
+    color: white;
+}
+
+.errorForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-weight: 600;
+    color: red;
+    width: 100%;
+    border-left: 7px solid rgb(253, 65, 65);
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(221, 176, 79);
+}
