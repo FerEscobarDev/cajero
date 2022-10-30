@@ -3,5 +3,6 @@
 @import url('/css/index.css');
 
 .hidden {
+  display: none;
   visibility: hidden;
 }
